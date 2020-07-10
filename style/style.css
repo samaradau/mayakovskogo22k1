@@ -1,0 +1,52 @@
+:root {
+    --main-bg-color: rgb(58, 105, 192);
+    --main-color: rgb(241, 241, 241);
+}
+
+@font-face {
+    font-family: Yanone;
+    src: url("fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Yanone', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.menu__item {
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 36px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.logo__svg {
+    fill: var(--main-color);
+}
+
+
+.menu__items {
+    /* float: right; */
+    color: var(--main-color);
+}
+
+.main-content {
+    position: relative;
+    font-size: 24px;
+}
+
+.navbar-collapse.text-center.collapse.show {
+    text-align: center;
+}
