@@ -1,0 +1,67 @@
+:root {
+    --color-primary: rgb(58, 105, 192);
+    --color-secondary: rgb(241, 241, 241);
+}
+
+@font-face {
+    font-family: Yanone;
+    src: url("assets/fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Yanone', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: var(--color-primary);
+    color: var(---color-secondary);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.menu__item {
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 36px;
+    color: var(--color-secondary);
+    font-weight: 600;   
+}
+
+.logo__svg {
+    fill: var(--color-secondary);
+}
+
+svg.telegram__svg {
+    fill: var(--color-secondary);
+    opacity: 0.5;
+}
+
+svg.telegram__svg:hover {
+    opacity: 0.8;
+}
+
+svg.telegram__svg:hover {
+    opacity: 0.8;
+}
+
+.menu__items {
+    /* float: right; */
+    color: var(--color-secondary);
+}
+
+.main-content {
+    position: relative;
+    font-size: 24px;
+}
+
+.primary-card-header {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

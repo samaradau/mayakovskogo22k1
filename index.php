@@ -1,6 +1,17 @@
-<?php include_once 'header.php'; ?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-<h1>Главная</h1>
-<p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores eligendi sapiente temporibus quod officia esse dolor architecto soluta eveniet facilis quos perspiciatis, cumque animi delectus, perferendis dolorum ex minima sed.</p>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
 
-<?php include_once 'footer.php'; ?>
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
