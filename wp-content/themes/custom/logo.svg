@@ -1,25 +1,25 @@
-<svg class="logo__svg" width="225" height="80" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <rect x="5" y="5" width="215" height="70" style="fill:none;stroke-width:1;stroke:white" />
-    <rect width="225" height="80" style="fill:none;stroke-width:5;stroke:white" />
+<svg class="logo__svg" width="158" height="52" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <rect x="5" y="5" width="148" height="42" style="fill:none;stroke-width:1;stroke:white" />
+    <rect width="158" height="52" style="fill:none;stroke-width:5;stroke:white" />
   <defs>
     <path id="streetTextPath" fill="none"  
-      d="M90 30 C 100 20, 120 20, 130 30"/>
+      d="M70 20 C 80 12, 100 12, 110 57"/>
 
     <path id="nameTextPath" fill="none"
-      d="M10 65 l 200 0"/>
+      d="M10 40 l 200 0"/>
   </defs>
   
   <use xlink:href="#streetTextPath"/>
-  <text font-size="22">
+  <text font-size="12">
   <textPath xlink:href="#streetTextPath">
   вуліца
   </textPath>
   </text>
 
    <use xlink:href="#nameTextPath"/>
-  <text font-size="36">
+  <text font-size="24">
   <textPath xlink:href="#nameTextPath">
-  Маякоўскага 22к1
+  Маякоўскага 22/1
   </textPath>
   </text>
 </svg>

@@ -15,7 +15,8 @@ body {
 }
 
 .menu {
-    background-color: var(--color-primary);
+    background: linear-gradient(90deg, var(--color-primary), rgb(58, 120, 192));
+    background-color: ;
     color: var(---color-secondary);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -29,7 +30,6 @@ body {
 .logo {
     font-size: 36px;
     color: var(--color-secondary);
-    font-weight: 600;   
 }
 
 .logo__svg {
@@ -64,4 +64,8 @@ svg.telegram__svg:hover {
     color: var(--color-secondary);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.fadeIn {
+    display: none;
 }
