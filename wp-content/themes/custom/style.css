@@ -1,6 +1,8 @@
 :root {
     --color-primary: rgb(58, 105, 192);
     --color-secondary: rgb(241, 241, 241);
+
+    --color-link: rgb(32, 40, 54);
 }
 
 @font-face {
@@ -14,9 +16,17 @@ body {
     padding: 0;
 }
 
+a {
+    color: var(--color-link);
+    text-decoration: underline;
+}
+
+a.nav-link {
+    text-decoration: none;
+}
+
 .menu {
     background: linear-gradient(90deg, var(--color-primary), rgb(58, 120, 192));
-    background-color: ;
     color: var(---color-secondary);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -26,6 +36,8 @@ body {
 .menu__item {
     font-size: 24px;
 }
+
+
 
 .logo {
     font-size: 36px;
@@ -68,4 +80,8 @@ svg.telegram__svg:hover {
 
 .fadeIn {
     display: none;
+}
+
+.developed-by {
+    font-size: 14px;
 }

@@ -2,8 +2,8 @@
 <footer class="page-footer font-small teal pt-4">
   <div class="container text-center text-md-left">
   <div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:
-    <span>Активный житель</span><br>
-    <span>Разработал <a href="https://t.me/akiweis" target="blank">akiweis</a></span>
+    <span><a href="http://mayakovskogo22k1.by">mayakovskogo22k1</a></span><br>
+    <span class="developed-by">Разработал: <a href="https://t.me/akiweis" target="blank">akiweis</a></span>
   </div>
 </footer>
 
